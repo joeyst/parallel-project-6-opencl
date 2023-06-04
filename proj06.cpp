@@ -129,9 +129,13 @@ main( int argc, char *argv[ ] )
 	if( status != CL_SUCCESS )
 		fprintf( stderr, "clCreateBuffer failed (2)\n" );
 
-	cl_mem dC = clCreateBuffer( Context, CL_MEM_WRITE_ONLY,  cSize, NULL, &status );
+	cl_mem dMW = clCreateBuffer( Context, CL_MEM_READ_ONLY,  mwSize, NULL, &status );
 	if( status != CL_SUCCESS )
 		fprintf( stderr, "clCreateBuffer failed (3)\n" );
+
+	cl_mem dC = clCreateBuffer( Context, CL_MEM_WRITE_ONLY,  cSize, NULL, &status );
+	if( status != CL_SUCCESS )
+		fprintf( stderr, "clCreateBuffer failed (4)\n" );
 
 	// 6. enqueue the 3 commands to write the data from the host buffers to the device buffers:
 
@@ -196,9 +200,10 @@ main( int argc, char *argv[ ] )
 
 	// 10. setup the arguments to the kernel object:
 
-	status = clSetKernelArg( kernel, 0, sizeof(cl_mem), &dA );
-	status = clSetKernelArg( kernel, 1, sizeof(cl_mem), &dB );
-	status = clSetKernelArg( kernel, 2, sizeof(cl_mem), &dC );
+	status = clSetKernelArg( Kernel, 0, sizeof(cl_mem), &dA );
+	status = clSetKernelArg( Kernel, 1, sizeof(cl_mem), &dB );
+	status = clSetKernelArg( Kernel, 2, sizeof(cl_mem), &dMW );
+	status = clSetKernelArg( Kernel, 3, sizeof(cl_mem), &dC );
 
 	// 11. enqueue the kernel object for execution:
 
