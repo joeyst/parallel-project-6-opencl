@@ -1,0 +1,92 @@
+srun: job 993861 queued and waiting for resources
+srun: job 993861 has been allocated resources
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   128 x   128
+Matrix Size:    128 x    128 , Work Elements:    1 x    1 , GigaMultsPerSecond:      26.80
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    64 x    64
+Matrix Size:    128 x    128 , Work Elements:    2 x    2 , GigaMultsPerSecond:      38.48
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    32 x    32
+Matrix Size:    128 x    128 , Work Elements:    4 x    4 , GigaMultsPerSecond:      42.31
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    16 x    16
+Matrix Size:    128 x    128 , Work Elements:    8 x    8 , GigaMultsPerSecond:      43.25
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =     8 x     8
+Matrix Size:    128 x    128 , Work Elements:   16 x   16 , GigaMultsPerSecond:      43.24
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   256 x   256
+Matrix Size:    256 x    256 , Work Elements:    1 x    1 , GigaMultsPerSecond:     106.63
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   128 x   128
+Matrix Size:    256 x    256 , Work Elements:    2 x    2 , GigaMultsPerSecond:     219.75
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    64 x    64
+Matrix Size:    256 x    256 , Work Elements:    4 x    4 , GigaMultsPerSecond:     305.84
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    32 x    32
+Matrix Size:    256 x    256 , Work Elements:    8 x    8 , GigaMultsPerSecond:     345.85
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    16 x    16
+Matrix Size:    256 x    256 , Work Elements:   16 x   16 , GigaMultsPerSecond:     338.72
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   512 x   512
+Matrix Size:    512 x    512 , Work Elements:    1 x    1 , GigaMultsPerSecond:     275.43
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   256 x   256
+Matrix Size:    512 x    512 , Work Elements:    2 x    2 , GigaMultsPerSecond:     850.87
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   128 x   128
+Matrix Size:    512 x    512 , Work Elements:    4 x    4 , GigaMultsPerSecond:    1801.37
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    64 x    64
+Matrix Size:    512 x    512 , Work Elements:    8 x    8 , GigaMultsPerSecond:    2447.65
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    32 x    32
+Matrix Size:    512 x    512 , Work Elements:   16 x   16 , GigaMultsPerSecond:    2501.74
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =  1024 x  1024
+Matrix Size:   1024 x   1024 , Work Elements:    1 x    1 , GigaMultsPerSecond:     546.89
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   512 x   512
+Matrix Size:   1024 x   1024 , Work Elements:    2 x    2 , GigaMultsPerSecond:    1639.30
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   256 x   256
+Matrix Size:   1024 x   1024 , Work Elements:    4 x    4 , GigaMultsPerSecond:    3301.07
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   128 x   128
+Matrix Size:   1024 x   1024 , Work Elements:    8 x    8 , GigaMultsPerSecond:    4388.19
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =    64 x    64
+Matrix Size:   1024 x   1024 , Work Elements:   16 x   16 , GigaMultsPerSecond:    4629.78
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =  2048 x  2048
+Matrix Size:   2048 x   2048 , Work Elements:    1 x    1 , GigaMultsPerSecond:    1189.92
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =  1024 x  1024
+Matrix Size:   2048 x   2048 , Work Elements:    2 x    2 , GigaMultsPerSecond:    4343.32
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   512 x   512
+Matrix Size:   2048 x   2048 , Work Elements:    4 x    4 , GigaMultsPerSecond:   12980.97
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   256 x   256
+Matrix Size:   2048 x   2048 , Work Elements:    8 x    8 , GigaMultsPerSecond:   25377.70
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   128 x   128
+Matrix Size:   2048 x   2048 , Work Elements:   16 x   16 , GigaMultsPerSecond:   28062.80
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =  4096 x  4096
+Matrix Size:   4096 x   4096 , Work Elements:    1 x    1 , GigaMultsPerSecond:    2435.43
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =  2048 x  2048
+Matrix Size:   4096 x   4096 , Work Elements:    2 x    2 , GigaMultsPerSecond:    9492.39
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =  1024 x  1024
+Matrix Size:   4096 x   4096 , Work Elements:    4 x    4 , GigaMultsPerSecond:   33678.40
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   512 x   512
+Matrix Size:   4096 x   4096 , Work Elements:    8 x    8 , GigaMultsPerSecond:   99991.57
+I have selected Platform #0, Device #0: Vendor = NVIDIA, Type = CL_DEVICE_TYPE_GPU
+Number of Work Groups =   256 x   256
+Matrix Size:   4096 x   4096 , Work Elements:   16 x   16 , GigaMultsPerSecond:  106359.91
